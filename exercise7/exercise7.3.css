@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    width: 60vw;
+    height: 70vh;
+    background-color: aqua;
+    flex-grow: 1;
+}
+.gallery-thumbs {
+    height: 50vh;
+    width: 50vw;
+    overflow: scroll;
+  }
+  .gallery-thumbs > div {
+    height:50vh;
+    width: 50vw;
+    cursor: pointer;
+  }
+  .gallery-thumbs img {
+      height:50vh;
+      width: 50vw;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 5px transparent;
+    display: inline-block;
+    margin: 0 0 10px;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+    width: 50%;
+  }
+  .gallery-thumbs .current img {
+    height:50vh;
+    width: 50vw;
+    box-shadow: 0 0 0 5px #ed6e2f;
+    opacity: 1;
+  }
+  .gallery-photo {
+    height:50vh;
+    width: 50vw;
+    opacity: 1;
+  }

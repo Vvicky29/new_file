@@ -4,11 +4,19 @@
     flex-grow: 1;
 }
 header{
+    height: 100px;
+    width: 100px;
     background-color: aqua;
 }
 div{
+
+    height: 100px;
+    width: 100px;
     background-color:red;
 }
 footer{
+
+    height: 100px;
+    width: 100px;
     background-color: blue;
 }
